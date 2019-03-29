@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+nav {
+  background-color: grey;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+nav ul {
+  text-align: center;
+}
+nav li {
+  display: inline;
+  position: relative;
+  list-style: none;
+  font-size: 25px;
+  padding: 0px 25px;
+}
+.Title {
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial Black;
+}
+.Description {
+  position: relative;
+  text-align: center;
+}
+.Description strong {
+  color: purple;
+}
+.Image img {
+  display: block;
+  margin: 0 auto;
+}
+#time {
+  color: lightblue;
+}
+#space {
+  color: blue;
+}
+#matter {
+  color: red;
+}
+#energy {
+  color: white;
+}
+#void {
+  color: purple;
+}
+#null {
+  color: black;
+}
